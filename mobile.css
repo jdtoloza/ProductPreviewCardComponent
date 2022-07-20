@@ -1,0 +1,43 @@
+@media screen and (max-width: 600px) {
+
+    .image__container {
+        height:40%;
+    }
+
+    .card__information__container {
+        height:60%;
+    }
+
+
+    .image__container, .card__information_container {
+        width:100%;
+    }
+
+    .card__container {
+        display:flex;
+        flex-direction:column;
+        /* justify-content:center; */
+        /* align-items:center;  */
+        border-radius: 10px;
+        height: 615px;
+        width: 350px;
+        overflow:hidden;
+    }
+
+    .card__information_container {
+        gap:1rem;
+        padding: 1.5em 2em;
+        height:100%;
+    }
+    
+    
+    .price__container {
+        gap:1.5em;
+        padding: 0 0;
+    }
+    
+    .sale__price{
+        font-size:2.5rem;
+    }
+    
+}
